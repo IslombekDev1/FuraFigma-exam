@@ -1,0 +1,36 @@
+.we-are-trusted-section{
+  margin-top: 120px;
+
+  .title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 125%;
+    color: #363738;
+    margin-bottom: 90px;
+  }
+
+  .logo-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 97px;
+    align-items: center;
+
+    .logo-box{
+      text-align: center;
+  
+      &__title{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 135%;
+        color: #363738;
+        margin: 32px 0 14px;
+      }
+  
+      &__desc{
+        line-height: 150%;
+        color: #6B6B6C;
+      }
+    }
+  }
+
+}

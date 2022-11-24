@@ -1,0 +1,62 @@
+.attracted-clients-container{
+  @include bg-color;
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(2, 30% 70%);
+  align-items: baseline;
+  padding: 85px 67px 0 81px;
+  margin-bottom: 120px;
+
+  .title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 125%;
+    color: #fff;
+  }
+
+  .pdv-contacts-container{
+    padding: 28px 40px 32px 41px;
+    background-color: white;
+    margin-bottom: 85px;
+
+    .pdv-contacts-box{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 32px;
+    }
+
+    .pdv-hr{
+      border-radius: 16px;
+      background-color: #D7D7DD;
+      margin-bottom: 32px;
+    }
+
+    .link{
+        height: 57px;
+    }
+
+    .desc{
+      width: 58%;
+    }
+
+    .pdv-nav{
+
+      .pdv-items{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 45px;
+        align-items: center;
+        text-align: center;
+        @include bg-color;
+
+        a{
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 150%;
+          color: white;
+        }
+      }
+    }
+
+  }
+}

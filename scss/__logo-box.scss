@@ -1,0 +1,247 @@
+.logo-section {
+  .logo-box {
+    display: grid;
+    gap: 169px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 40px 122px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+
+    
+    &__link {
+      border-radius: 50%;
+      @include logo-bg-color();
+      display: inline-block;
+
+      &__image {
+        padding: 21px;
+      }
+
+      &__image2 {
+        padding: 21px 28px;
+      }
+
+      &__image3 {
+        padding: 21px 11px;
+      }
+    }
+
+    
+
+    &__title {
+      font-family: 'Exo2';
+      font-size: 20px;
+      line-height: 135%;
+      color: #363738;
+      margin: 24px 0 16px;
+    }
+
+    &__desc {
+      line-height: 150%;
+      color: #6B6B6C;
+    }
+  }
+
+  .title {
+    margin: 100px 0 32px;
+    font-family: 'Exo2';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 125%;
+    color: #363738;
+  }
+  .description {
+    line-height: 150%;
+    color: #6B6B6C;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.questionnaire-container {
+  display: grid;
+  grid-template-columns: repeat(2, 52% 48%);
+
+  .questionnaire-box {
+    display: inline-block;
+    margin: 40px 0 16px;
+    padding: 40px 125px 48px 96px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+
+    &__form {
+      margin-bottom: 24px;
+
+      .form__box {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+        margin-left: -56px;
+
+        label {
+          margin-right: auto;
+        }
+
+        input {
+          width: 24px;
+          height: 24px;
+          margin-right: 32px;
+        }
+
+      }
+    }
+
+    &__title {
+      font-family: 'Exo2';
+      font-size: 20px;
+      line-height: 150%;
+      color: #363738;
+    }
+  }
+  .questionnaire-box2 {
+    margin: 0 0 16px;
+  }
+
+  .voted {
+    width: 44%;
+    height: 13%;
+    position: relative;
+    top: 113px;
+    left: 140px;
+
+    &__title {
+      font-family: 'Exo2';
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 150%;
+      color: #363738;
+    }
+
+    &__desc {
+    
+
+      span {
+        font-family: 'Exo 2';
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 150%;
+        letter-spacing: 0.3em;
+        color: #363738;
+      }
+
+      &::after {
+        content: '';
+        width: 104px;
+        display: block;
+        border: 1.7px solid #FFCE50;
+        background-color: #FFCE50;
+      }
+    }
+  }
+  .title {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 125%;
+    color: #363738;
+    margin-bottom: 32px;
+  }
+  .description {
+    line-height: 150%;
+    color: #6B6B6C;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.question-section {
+  margin: 100px 0 120px;
+  
+  .question-container {
+    position: relative;
+
+
+    .question-box {
+      position: absolute;
+      z-index: 1;
+      
+      .title {
+        width: 344px;
+        position: absolute;
+        top: 160px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #FFF;
+      }
+    }
+
+    .question-img-box {
+      position: relative;
+
+
+      &__fura2 {
+        width: 1040px;
+        margin-left: 15%;
+      }
+
+      &__img {
+        position: absolute;
+        top: 0;
+        left: -100px;
+      }
+
+      &__img2 {
+        position: absolute;
+        top: 0;
+        left: 24%;
+      }
+    }
+  }
+
+  .contacts-boxs {
+    margin-top: 72.5px;
+    display: grid;
+    grid-template-columns: repeat(2, 25vw);
+    gap: 62px 176px;
+    margin-left: 86px;
+
+    .contacts-box{
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      .title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 135%;
+        color: #363738;
+        margin-bottom: 16px;
+      }
+      .desc {
+        font-family: 'PT Sans';
+        line-height: 150%;
+        color: #6B6B6C;
+      }
+    }
+  }
+}
