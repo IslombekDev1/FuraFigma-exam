@@ -52,7 +52,7 @@
   position: absolute;
   right: 0px;
   z-index: -1;
-  width: 832px;
+  width: 599px;
   height: 787px;
   background: #0B7572;
 }
@@ -63,6 +63,9 @@
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
+.logo-section {
+  margin-bottom: 100px;
+}
 .logo-section .logo-box {
   display: grid;
   gap: 169px;
@@ -114,7 +117,7 @@
 
 .questionnaire-container {
   display: grid;
-  grid-template-columns: repeat(2, 52% 48%);
+  grid-template-columns: repeat(2, 55% 45%);
 }
 .questionnaire-container .questionnaire-box {
   display: inline-block;
@@ -195,9 +198,6 @@
 .question-section {
   margin: 100px 0 120px;
 }
-.question-section .question-container {
-  position: relative;
-}
 .question-section .question-container .question-box {
   position: absolute;
   z-index: 1;
@@ -215,18 +215,20 @@
   position: relative;
 }
 .question-section .question-container .question-img-box__fura2 {
-  width: 1040px;
-  margin-left: 15%;
+  width: 86%;
+  margin-left: 14%;
 }
 .question-section .question-container .question-img-box__img {
+  width: 63.5%;
   position: absolute;
   top: 0;
-  left: -100px;
+  left: -140px;
 }
 .question-section .question-container .question-img-box__img2 {
+  width: 45.6%;
   position: absolute;
   top: 0;
-  left: 24%;
+  left: 23%;
 }
 .question-section .contacts-boxs {
   margin-top: 72.5px;
@@ -309,7 +311,7 @@
   background: #0B7572;
   color: black;
   display: grid;
-  grid-template-columns: repeat(2, 30% 70%);
+  grid-template-columns: repeat(2, 40.4% 59.6%);
   align-items: baseline;
   padding: 85px 67px 0 81px;
   margin-bottom: 120px;
@@ -321,6 +323,8 @@
   color: #fff;
 }
 .attracted-clients-container .pdv-contacts-container {
+  width: 652px;
+  box-sizing: border-box;
   padding: 28px 40px 32px 41px;
   background-color: white;
   margin-bottom: 85px;
@@ -354,6 +358,9 @@
   font-size: 16px;
   line-height: 150%;
   color: white;
+}
+.attracted-clients-container .pdv-contacts-container .paper {
+  width: 100%;
 }
 
 .delivery-stages-section h2 {

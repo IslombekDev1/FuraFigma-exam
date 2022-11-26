@@ -1,4 +1,6 @@
 .logo-section {
+  margin-bottom: 100px;
+
   .logo-box {
     display: grid;
     gap: 169px;
@@ -70,7 +72,7 @@
 
 .questionnaire-container {
   display: grid;
-  grid-template-columns: repeat(2, 52% 48%);
+  grid-template-columns: repeat(2, 55% 45%);
 
   .questionnaire-box {
     display: inline-block;
@@ -177,7 +179,6 @@
   margin: 100px 0 120px;
   
   .question-container {
-    position: relative;
 
 
     .question-box {
@@ -200,20 +201,22 @@
 
 
       &__fura2 {
-        width: 1040px;
-        margin-left: 15%;
+        width: 86%;
+        margin-left: 14%;
       }
 
       &__img {
+        width: 63.5%;
         position: absolute;
         top: 0;
-        left: -100px;
+        left: -140px;
       }
 
       &__img2 {
+        width: 45.6%;
         position: absolute;
         top: 0;
-        left: 24%;
+        left: 23%;
       }
     }
   }
